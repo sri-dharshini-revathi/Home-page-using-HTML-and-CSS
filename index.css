@@ -1,0 +1,265 @@
+*{
+	
+	margin: 0;
+	padding: 0;
+}
+.first{
+	background-image: linear-gradient(rgba(72,209,204,0.7),rgba(72,209,204,0.7)),url('https://static.pexels.com/photos/50987/money-card-business-credit-card-50987-large.jpeg') ;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 300px;
+	background-color: gray;
+	overflow: hidden;
+	
+
+}
+
+
+.heading{
+	display: flex;
+	align-items: center;
+	
+}
+.heading h1{
+	color: white;
+	padding-top: 10px;
+	
+}
+.heading img{
+	height: 70px;
+	margin-right: 30px;
+}
+.top{
+	display: flex;
+	overflow: hidden;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.top ul
+{
+	margin-right: 20px;
+}
+.top ul li
+{
+	display: inline-block;
+	margin-left: 40px;
+    font-size: 20px;
+	
+}
+.top ul li a
+{
+	color:white;
+	text-decoration:none;
+
+}
+.top ul li a:hover{
+	background-color: #02E0C6;
+	color: #000;
+	padding: 10px;
+	
+}
+.crunch{
+	background-color: #02E0C6;
+	color: #000;
+	padding: 10px;
+	
+}
+
+.extend{
+	text-align: center;
+}
+.extend h1{
+	
+	color: white;
+	padding-top: 120px;
+	padding-bottom: 60px;
+	font-size: 30px;
+}
+.extend a{
+	
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	
+}
+.extend a{
+	background-color: #02E0C6;
+	
+	color: white;
+	padding: 10px;
+	
+}
+.column{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.column > *{
+	flex: 1 0 400px;
+	margin: 30px;
+}
+
+.content h2{
+	padding-bottom: 10px;
+	padding-left: 100px;
+	
+	
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.content{
+	padding: 20px;
+}
+
+.content p{
+	padding-top: 20px;
+	padding: 20px 100px 100px 100px;
+	line-height: 1.6;
+	text-align: justify;
+	
+}
+
+.center{
+	
+	width: 50%;
+	padding: 30px;
+	padding-left: 100px;
+}
+.footer{
+	background-color: black;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer li
+{
+	display: inline-block;
+    font-size: 20px;
+	
+}
+.footer a
+{
+	color:white;
+	text-decoration: underline;
+	padding: 20px;
+
+}
+.footer a:hover{
+	
+	color: gray;
+	
+}
+@media( min-width:460px) and (max-width:800px){
+.column > *{
+	flex: 1 0 300px;
+	margin: 0px 50px;
+	padding: 0px;
+	padding-right: 20px;
+}
+
+
+.column :nth-child(1) { order: 1; }
+.column :nth-child(2) { order: 2; }
+.column :nth-child(4) { order: 3; }
+.column :nth-child(3) { order: 4; }
+.column :nth-child(5) { order: 5; }
+.column :nth-child(6) { order: 6; }
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	padding: 0px;
+	padding-bottom: 10px;
+	
+	
+}
+.content{
+	padding: 0px;
+}
+
+
+
+
+.content h2{
+	padding: 0px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content p{
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+
+
+}
+@media (max-width:460px) {
+	
+.column > *{
+	flex: 1 0 100px;
+	margin: 0px 50px;
+	padding: 0px;
+	padding-right: 20px;
+}
+.column :nth-child(1) { order: 1; }
+.column :nth-child(2) { order: 2; }
+.column :nth-child(4) { order: 3; }
+.column :nth-child(3) { order: 4; }
+.column :nth-child(5) { order: 5; }
+.column :nth-child(6) { order: 6; }
+.center{
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	padding: 0px;
+}
+.content{
+	padding: 0px;
+}
+.content h2{
+	padding: 0px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content p{
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+
+}
+@media(max-width: 700px){
+	
+.top ul li{
+	display: block;
+	line-height: 1.5;
+}
+}
+@media(max-width: 560px){
+.footer li{
+	display: block;
+	line-height: 1.5;
+}
+}
